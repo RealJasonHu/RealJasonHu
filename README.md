@@ -60,6 +60,17 @@ Two original open-source tools—each shipped with a release, automated tests, d
   </tr>
 </table>
 
+## Open-source contributions / 上游贡献
+
+I also work directly in established codebases, from AI gateways and robotics tooling to physics simulation.
+
+| Project | Contribution | Proof |
+| --- | --- | --- |
+| **LiteLLM** | Preserved caller-provided spend metadata on authentication failures, with safe parsing and focused regression coverage for malformed and missing-header cases. | [BerriAI/litellm#38493](https://github.com/BerriAI/litellm/pull/38493) |
+| **Podman Desktop** | Fixed a navigation resize handle leaking above the full-screen welcome overlay and added a Playwright hit-test regression. | [podman-desktop#18998](https://github.com/podman-desktop/podman-desktop/pull/18998) |
+| **MuJoCo** | Reproduced seven friction-creep cases and clarified the modeling and performance tradeoffs of `impratio` and the NoSlip solver. | [google-deepmind/mujoco#3526](https://github.com/google-deepmind/mujoco/pull/3526) |
+| **LeRobot** | Reviewed the intermediate-prediction contract for world-model policies and identified periodic-eval propagation and non-image output failure paths. | [huggingface/lerobot#3757](https://github.com/huggingface/lerobot/pull/3757#pullrequestreview-5040741407) |
+
 ## What the work demonstrates / 成果能力图谱
 
 | | Capability | Evidence in the projects |
@@ -89,5 +100,5 @@ small, inspectable systems > feature piles
 </p>
 
 <p align="center">
-  <sub>World models · Visual AI · Testing infrastructure · Open-source developer tools</sub>
+  <sub>World models · Visual AI · Robotics · Testing infrastructure · Open source</sub>
 </p>
