@@ -66,9 +66,9 @@ I also contribute through upstream patches and code review, from AI gateways and
 
 | Project | Contribution | Proof |
 | --- | --- | --- |
-| **LiteLLM** | Authored a PR to preserve caller-provided spend metadata on authentication failures, with safe parsing and focused regression coverage for malformed, null, and missing-header-scope cases. | [BerriAI/litellm#38493](https://github.com/BerriAI/litellm/pull/38493) |
-| **Podman Desktop** | Authored a PR to keep a navigation resize handle below the full-screen welcome overlay and added a Playwright hit-test regression. | [podman-desktop#18998](https://github.com/podman-desktop/podman-desktop/pull/18998) |
-| **MuJoCo** | Authored a documentation PR reporting seven reproduced friction-creep cases and clarifying the tradeoffs of `impratio` and the NoSlip solver. | [google-deepmind/mujoco#3526](https://github.com/google-deepmind/mujoco/pull/3526) |
+| **LiteLLM** | Opened a focused PR to preserve caller-provided spend metadata on authentication failures, with safe parsing and regression coverage for malformed, null, and missing-header-scope cases. | [BerriAI/litellm#38493](https://github.com/BerriAI/litellm/pull/38493) |
+| **Podman Desktop** | Submitted a fix that keeps the navigation resize handle below the full-screen welcome overlay, plus a Playwright hit-test regression; the open PR has received an approving review. | [podman-desktop#18998](https://github.com/podman-desktop/podman-desktop/pull/18998) |
+| **MuJoCo** | Submitted a documentation PR, backed by a reported seven-case CPU reproduction, clarifying the limits of `impratio` and the NoSlip solver's tradeoffs. | [google-deepmind/mujoco#3526](https://github.com/google-deepmind/mujoco/pull/3526) |
 | **LeRobot** | Reviewed the intermediate-prediction contract for world-model policies and reported two code-backed regression risks: periodic-eval flag propagation and non-image outputs entering the RGB-video path. | [huggingface/lerobot#3757](https://github.com/huggingface/lerobot/pull/3757#pullrequestreview-5040741407) |
 
 ## What the work demonstrates / 成果能力图谱
