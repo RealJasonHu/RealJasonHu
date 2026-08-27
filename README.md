@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/profile-header.svg" width="100%" alt="Zhexun Hu — shipping evidence-first AI tools" />
+  <img src="./assets/profile-header.svg?v=2" width="100%" alt="Zhexun Hu — shipping evidence-first AI tools" />
 </div>
 
 <p align="center">
