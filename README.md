@@ -60,16 +60,16 @@ Two original open-source tools—each shipped with a release, automated tests, d
   </tr>
 </table>
 
-## Open-source contributions / 上游贡献
+## Upstream work / 上游协作
 
-I also work directly in established codebases, from AI gateways and robotics tooling to physics simulation.
+I also contribute through upstream patches and code review, from AI gateways and robotics tooling to physics simulation. The linked review threads show the current status of each contribution.
 
 | Project | Contribution | Proof |
 | --- | --- | --- |
-| **LiteLLM** | Preserved caller-provided spend metadata on authentication failures, with safe parsing and focused regression coverage for malformed and missing-header cases. | [BerriAI/litellm#38493](https://github.com/BerriAI/litellm/pull/38493) |
-| **Podman Desktop** | Fixed a navigation resize handle leaking above the full-screen welcome overlay and added a Playwright hit-test regression. | [podman-desktop#18998](https://github.com/podman-desktop/podman-desktop/pull/18998) |
-| **MuJoCo** | Reproduced seven friction-creep cases and clarified the modeling and performance tradeoffs of `impratio` and the NoSlip solver. | [google-deepmind/mujoco#3526](https://github.com/google-deepmind/mujoco/pull/3526) |
-| **LeRobot** | Reviewed the intermediate-prediction contract for world-model policies and identified periodic-eval propagation and non-image output failure paths. | [huggingface/lerobot#3757](https://github.com/huggingface/lerobot/pull/3757#pullrequestreview-5040741407) |
+| **LiteLLM** | Authored a PR to preserve caller-provided spend metadata on authentication failures, with safe parsing and focused regression coverage for malformed, null, and missing-header-scope cases. | [BerriAI/litellm#38493](https://github.com/BerriAI/litellm/pull/38493) |
+| **Podman Desktop** | Authored a PR to keep a navigation resize handle below the full-screen welcome overlay and added a Playwright hit-test regression. | [podman-desktop#18998](https://github.com/podman-desktop/podman-desktop/pull/18998) |
+| **MuJoCo** | Authored a documentation PR reporting seven reproduced friction-creep cases and clarifying the tradeoffs of `impratio` and the NoSlip solver. | [google-deepmind/mujoco#3526](https://github.com/google-deepmind/mujoco/pull/3526) |
+| **LeRobot** | Reviewed the intermediate-prediction contract for world-model policies and reported two code-backed regression risks: periodic-eval flag propagation and non-image outputs entering the RGB-video path. | [huggingface/lerobot#3757](https://github.com/huggingface/lerobot/pull/3757#pullrequestreview-5040741407) |
 
 ## What the work demonstrates / 成果能力图谱
 
