@@ -9,6 +9,7 @@
 
 <p align="center">
   <a href="#selected-work">Selected work</a> ·
+  <a href="#research">Research</a> ·
   <a href="#upstream-contributions">Upstream contributions</a> ·
   <a href="#engineering-approach">Engineering approach</a> ·
   <a href="https://github.com/RealJasonHu?tab=repositories">All repositories</a>
@@ -70,6 +71,15 @@ ReproCut runs deletion experiments in fresh Chromium contexts and keeps a shorte
     </td>
   </tr>
 </table>
+
+<a id="research"></a>
+## Research / 研究项目
+
+**EP-LVMQA — long-video question answering.** Research on evidence-preserving coarse-to-fine localization: a multimodal evidence planner passes structured Evidence Cards to a fine localizer, keeping the model-facing handoff distinct from the final evidence trace.
+
+**Adaptive Natural Language Processing Using Meta-Learning — MSc dissertation project.** Controlled few-shot intent and sentiment classification, comparing BERT baselines, Prototypical Networks, MAML, and FOMAML with explicit episode splits and reproducible evaluation.
+
+<sub>Research projects are separate from the public software releases above. Paper and code links are included only when publicly available.</sub>
 
 <a id="upstream-contributions"></a>
 ## Upstream contributions / 开源协作
