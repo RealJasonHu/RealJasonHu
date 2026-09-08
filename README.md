@@ -25,13 +25,11 @@
 <a id="selected-work"></a>
 ## Selected work / 原创项目
 
-Three open-source tools, connected by one idea: **make a failure concrete enough to reproduce, inspect, and fix.** ReproCut and RenderWitness have completed, usable initial implementations; DreamFuzz is in active development. These are early-stage tools with documented boundaries, not claims of production maturity or general model accuracy.
+Three open-source tools, connected by one idea: **make a failure concrete enough to reproduce, inspect, and fix.** These are early-stage tools with documented boundaries, not claims of production maturity or general model accuracy.
 
 ### 01 / ReproCut — smaller journeys, the same bug
 
 **Reduce a failing browser journey to a verified reproducer and a runnable regression test.**
-
-<sub>Initial implementation completed · v0.1.0 · 已完成初版</sub>
 
 ReproCut runs deletion experiments in fresh Chromium contexts and keeps a shorter action sequence only when the same declared failure still reproduces. It exports a replayable journey, a Playwright regression test, an offline evidence report, and a repair brief for a developer or coding agent.
 
@@ -50,7 +48,6 @@ ReproCut runs deletion experiments in fresh Chromium contexts and keeps a shorte
     <td width="50%" valign="top">
       <h3>02 / <a href="https://github.com/RealJasonHu/renderwitness">RenderWitness</a></h3>
       <p><strong>Visual regression review, backed by inspectable evidence.</strong></p>
-      <p><sub>Implemented through v0.2.0 · 已完成当前版本</sub></p>
       <a href="https://github.com/RealJasonHu/renderwitness">
         <img src="https://raw.githubusercontent.com/RealJasonHu/renderwitness/main/docs/assets/workbench.png" width="100%" alt="Actual RenderWitness report from captured browser fixtures, using the offline metric-only provider" />
       </a>
@@ -63,7 +60,6 @@ ReproCut runs deletion experiments in fresh Chromium contexts and keeps a shorte
     <td width="50%" valign="top">
       <h3>03 / <a href="https://github.com/RealJasonHu/dreamfuzz">DreamFuzz</a></h3>
       <p><strong>Find, shrink, and replay world-model failures.</strong></p>
-      <p><sub>In progress · Working alpha · 持续开发中</sub></p>
       <a href="https://github.com/RealJasonHu/dreamfuzz">
         <img src="https://raw.githubusercontent.com/RealJasonHu/dreamfuzz/main/docs/assets/hero.svg" width="100%" alt="DreamFuzz — property-based testing for world models" />
       </a>
@@ -77,13 +73,11 @@ ReproCut runs deletion experiments in fresh Chromium contexts and keeps a shorte
 </table>
 
 <a id="research"></a>
-## Research / 研究项目
+## Research / 研究方向
 
-**EP-LVMQA — long-video question answering.** Research on evidence-preserving coarse-to-fine localization: a multimodal evidence planner passes structured Evidence Cards to a fine localizer, keeping the model-facing handoff distinct from the final evidence trace.
+I am interested in reliable multimodal systems, long-video understanding, and learning from limited supervision. My focus is on making model behavior testable, evidence traceable, and evaluation reproducible.
 
-**Adaptive Natural Language Processing Using Meta-Learning — MSc dissertation project.** Controlled few-shot intent and sentiment classification, comparing BERT baselines, Prototypical Networks, MAML, and FOMAML with explicit episode splits and reproducible evaluation. Research / revision in progress.
-
-<sub>Research projects are separate from the public software releases above. Paper and code links are included only when publicly available.</sub>
+<sub>Public software is listed above. Research manuscripts, results, and code are linked only when cleared for public release.</sub>
 
 <a id="upstream-contributions"></a>
 ## Upstream contributions / 开源协作
