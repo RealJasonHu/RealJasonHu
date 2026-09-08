@@ -1,72 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
-  <title id="title">Zhexun Hu — Building reliable AI systems</title>
-  <desc id="desc">A dark technical banner for RealJasonHu, focused on world models, VLM testing, and developer tools.</desc>
-
+  <title id="title">Jason Hu — AI research and open-source engineering</title>
+  <desc id="desc">Jason Hu builds reproducible, inspectable tools for browser debugging, visual regression review, and world-model testing: ReproCut, RenderWitness, and DreamFuzz.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#071216" />
-      <stop offset="0.56" stop-color="#0A1920" />
-      <stop offset="1" stop-color="#11142A" />
+      <stop offset="0" stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#14232E"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#57F2C2" />
-      <stop offset="0.52" stop-color="#72A7FF" />
-      <stop offset="1" stop-color="#B69CFF" />
+      <stop offset="0" stop-color="#74E2C0"/>
+      <stop offset="1" stop-color="#8CBFFF"/>
     </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#72A7FF" stop-opacity="0.26" />
-      <stop offset="1" stop-color="#72A7FF" stop-opacity="0" />
-    </radialGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#D7F9EE" stroke-opacity="0.055" stroke-width="1" />
+      <path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity="0.035"/>
     </pattern>
-    <filter id="soft-glow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="5" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-    <clipPath id="frame">
-      <rect x="1" y="1" width="1198" height="338" rx="28" />
-    </clipPath>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="338" rx="20"/></clipPath>
   </defs>
-
   <g clip-path="url(#frame)">
-    <rect width="1200" height="340" fill="url(#background)" />
-    <rect width="1200" height="340" fill="url(#grid)" />
-    <circle cx="1000" cy="170" r="290" fill="url(#glow)" />
-    <path d="M0 319C216 263 366 326 564 276C740 231 906 92 1200 80" fill="none" stroke="url(#accent)" stroke-opacity="0.18" stroke-width="2" />
-    <path d="M0 335C231 286 386 344 587 294C784 245 942 119 1200 106" fill="none" stroke="url(#accent)" stroke-opacity="0.08" stroke-width="1" />
-
+    <rect width="1200" height="340" fill="url(#background)"/>
+    <rect width="1200" height="340" fill="url(#grid)"/>
+    <rect x="0" y="0" width="1200" height="4" fill="url(#accent)"/>
     <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
-      <text x="68" y="69" fill="#57F2C2" font-size="15" font-weight="700" letter-spacing="4">REALJASONHU / BUILDER</text>
-      <rect x="68" y="88" width="84" height="4" rx="2" fill="url(#accent)" />
-      <text x="66" y="166" fill="#F4FBF9" font-size="70" font-weight="750" letter-spacing="1">ZHEXUN HU</text>
-      <text x="70" y="213" fill="#B7C8C8" font-size="22" font-weight="500" letter-spacing="2.4">SHIPPING EVIDENCE-FIRST AI TOOLS</text>
-      <text x="70" y="276" fill="#7F9799" font-size="14" font-weight="650" letter-spacing="2.1">WORLD MODELS  /  VISUAL AI  /  OPEN SOURCE</text>
-    </g>
-
-    <g transform="translate(928 170)">
-      <ellipse rx="174" ry="75" fill="none" stroke="#72A7FF" stroke-opacity="0.28" stroke-width="1.5" transform="rotate(-16)" />
-      <ellipse rx="124" ry="124" fill="none" stroke="#57F2C2" stroke-opacity="0.2" stroke-width="1.5" transform="rotate(28)" />
-      <ellipse rx="72" ry="153" fill="none" stroke="#B69CFF" stroke-opacity="0.24" stroke-width="1.5" transform="rotate(56)" />
-      <circle r="34" fill="#0B2025" stroke="url(#accent)" stroke-width="2" />
-      <circle r="7" fill="#57F2C2" filter="url(#soft-glow)" />
-      <circle cx="135" cy="-45" r="6" fill="#72A7FF" filter="url(#soft-glow)" />
-      <circle cx="-88" cy="-88" r="5" fill="#B69CFF" filter="url(#soft-glow)" />
-      <circle cx="-116" cy="61" r="5" fill="#FFCF70" filter="url(#soft-glow)" />
-      <path d="M-109 57L-8 5L129-42" fill="none" stroke="#D7F9EE" stroke-opacity="0.32" stroke-width="1" stroke-dasharray="5 7" />
-      <path d="M-84-84L-4-5L129-42" fill="none" stroke="#D7F9EE" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="4 8" />
-    </g>
-
-    <g fill="#D7F9EE" fill-opacity="0.34">
-      <circle cx="1138" cy="48" r="2" />
-      <circle cx="1091" cy="288" r="2" />
-      <circle cx="774" cy="62" r="2" />
-      <circle cx="824" cy="292" r="2" />
+      <text x="58" y="58" fill="#74E2C0" font-size="13" font-weight="700" letter-spacing="2.6">AI RESEARCH / OPEN-SOURCE ENGINEERING</text>
+      <text x="55" y="147" fill="#F0F6FC" font-size="76" font-weight="700" letter-spacing="-2">Jason Hu</text>
+      <text x="59" y="195" fill="#CCD8E4" font-size="24">Make failures reproducible.</text>
+      <text x="59" y="228" fill="#CCD8E4" font-size="24">Make evidence inspectable.</text>
+      <text x="60" y="291" fill="#91A5B7" font-size="14" letter-spacing="0.5">World models · Multimodal AI · Developer tools</text>
+      <line x1="704" y1="56" x2="704" y2="287" stroke="#71869A" stroke-opacity="0.3"/>
+      <g transform="translate(752 54)">
+        <text x="0" y="0" fill="#91A5B7" font-size="11" font-weight="600" letter-spacing="2">SELECTED WORK</text>
+        <rect x="0" y="22" width="386" height="62" rx="9" fill="#0D1822" stroke="#344957"/>
+        <rect x="0" y="100" width="386" height="62" rx="9" fill="#0D1822" stroke="#344957"/>
+        <rect x="0" y="178" width="386" height="62" rx="9" fill="#0D1822" stroke="#344957"/>
+        <text x="18" y="47" fill="#74E2C0" font-size="17" font-weight="650">ReproCut</text>
+        <text x="18" y="67" fill="#B4C3D1" font-size="12">Smaller browser reproducers. Same bug.</text>
+        <text x="18" y="125" fill="#8CBFFF" font-size="17" font-weight="650">RenderWitness</text>
+        <text x="18" y="145" fill="#B4C3D1" font-size="12">Visual changes, backed by inspectable evidence.</text>
+        <text x="18" y="203" fill="#C4B5FD" font-size="17" font-weight="650">DreamFuzz</text>
+        <text x="18" y="223" fill="#B4C3D1" font-size="12">Find, shrink, and replay world-model failures.</text>
+      </g>
     </g>
   </g>
-
-  <rect x="1" y="1" width="1198" height="338" rx="28" fill="none" stroke="#D7F9EE" stroke-opacity="0.13" stroke-width="2" />
+  <rect x="1" y="1" width="1198" height="338" rx="20" fill="none" stroke="#344957"/>
 </svg>
